@@ -1,0 +1,48 @@
+.nav-section a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-section p {
+    font-size: 0.75em; /* Smaller text */
+    color: #555; /* Grey */
+}
+
+.btn-red {
+    background-color: #e74c3c; /* Red background */
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #1565c0; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    padding: 1em 10%;
+    gap: 5em;
+}
+
+.video-container {
+    flex: 1 1 45%; /* Flexible box, base 45% */
+}
+
+.greetings {
+    flex: 1 1 45%;
+}
+
+.greetings p {
+    text-align: justify;
+}
